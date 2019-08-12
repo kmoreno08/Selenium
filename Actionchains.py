@@ -6,6 +6,7 @@ Created on Jul 14, 2019
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 
+#Using firefox
 driver = webdriver.Firefox()
 driver.get('http://demo.guru99.com/test/drag_drop.html')
 
